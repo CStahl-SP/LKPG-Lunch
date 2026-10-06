@@ -1,36 +1,28 @@
 {
   "city": "Linköping",
   "dataType": "demo",
-  "description": "Syntetiska testdata för en Copilot Studio-agent. Restaurangerna är exempel och ska inte tolkas som verifierade verkliga verksamheter.",
+  "description": "Testdata för en Copilot Studio-agent. Restaurangerna och allt annatär exempel..",
   "restaurants": [
     {
       "id": 1,
-      "name": "Stora torgets lunchkök",
+      "name": "Olympia - Da Vinci",
       "area": "Centrum",
-      "address": "Exempelgatan 1",
+      "address": "Bielkegatan 1",
       "cuisine": [
-        "svensk husmanskost"
+        "Svensk husmanskost"
       ],
-      "dailyLunch": "Köttbullar med potatispuré och gräddsås",
-      "vegetarianOption": "Vegetariska biffar med rostad potatis",
-      "priceSek": 125,
-      "openingHours": "11:00-14:00",
-      "isOpenForLunch": true
+      "openingHours": "11:00-14:00"
     },
     {
       "id": 2,
-      "name": "Tannefors gröna kök",
-      "area": "Tannefors",
+      "name": "Restaurang East Linköping",
+      "area": "Centrum",
       "address": "Demovägen 12",
       "cuisine": [
-        "vegetariskt",
+        "Asiatiskt",
         "veganskt"
       ],
-      "dailyLunch": "Rostad blomkål med hummus och matvete",
-      "vegetarianOption": "Dagens rätt är vegetarisk",
-      "priceSek": 119,
-      "openingHours": "10:30-14:30",
-      "isOpenForLunch": true
+      "openingHours": "11.00-14:30"
     },
     {
       "id": 3,
@@ -41,9 +33,6 @@
         "asiatiskt",
         "thai"
       ],
-      "dailyLunch": "Kyckling med röd curry och jasminris",
-      "vegetarianOption": "Tofu med grön curry",
-      "priceSek": 129,
       "openingHours": "11:00-14:30",
       "isOpenForLunch": true
     },
@@ -56,11 +45,7 @@
         "internationellt",
         "svenskt"
       ],
-      "dailyLunch": "Ugnsbakad lax med dillpotatis",
-      "vegetarianOption": "Svamprisotto med parmesan",
-      "priceSek": 135,
-      "openingHours": "11:00-13:30",
-      "isOpenForLunch": true
+      "openingHours": "11:00-13:30"
     },
     {
       "id": 5,
@@ -71,11 +56,7 @@
         "italienskt",
         "pasta"
       ],
-      "dailyLunch": "Pasta bolognese med parmesan",
-      "vegetarianOption": "Pasta primavera",
-      "priceSek": 122,
-      "openingHours": "10:30-15:00",
-      "isOpenForLunch": true
+      "openingHours": "10:30-15:00"
     }
   ]
 }
