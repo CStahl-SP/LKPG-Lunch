@@ -5,8 +5,8 @@
     "description": "Hämtar lunchrestauranger från en publik JSON-fil.",
     "version": "1.0.0"
   },
-  "host": "DIN-GITHUB-ANVANDARE.github.io",
-  "basePath": "/DITT-REPO",
+  "host": "raw.githubusercontent.com",
+  "basePath": "/CStahl-SP/LKPG-Lunch",
   "schemes": [
     "https"
   ],
@@ -14,7 +14,7 @@
     "application/json"
   ],
   "paths": {
-    "/linkopings-lunchrestauranger.json": {
+    "/main/LinkopingLunch.json": {
       "get": {
         "operationId": "GetLinkopingLunchRestaurants",
         "summary": "Hämta lunchrestauranger",
