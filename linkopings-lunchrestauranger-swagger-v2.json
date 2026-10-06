@@ -1,0 +1,29 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Linköpings lunchrestauranger API",
+    "description": "Hämtar lunchrestauranger från en publik JSON-fil.",
+    "version": "1.0.0"
+  },
+  "host": "DIN-GITHUB-ANVANDARE.github.io",
+  "basePath": "/DITT-REPO",
+  "schemes": [
+    "https"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/linkopings-lunchrestauranger.json": {
+      "get": {
+        "operationId": "GetLinkopingLunchRestaurants",
+        "summary": "Hämta lunchrestauranger",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  }
+}

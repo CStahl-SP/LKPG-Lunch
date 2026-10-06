@@ -1,0 +1,81 @@
+{
+  "city": "Linköping",
+  "dataType": "demo",
+  "description": "Syntetiska testdata för en Copilot Studio-agent. Restaurangerna är exempel och ska inte tolkas som verifierade verkliga verksamheter.",
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Stora torgets lunchkök",
+      "area": "Centrum",
+      "address": "Exempelgatan 1",
+      "cuisine": [
+        "svensk husmanskost"
+      ],
+      "dailyLunch": "Köttbullar med potatispuré och gräddsås",
+      "vegetarianOption": "Vegetariska biffar med rostad potatis",
+      "priceSek": 125,
+      "openingHours": "11:00-14:00",
+      "isOpenForLunch": true
+    },
+    {
+      "id": 2,
+      "name": "Tannefors gröna kök",
+      "area": "Tannefors",
+      "address": "Demovägen 12",
+      "cuisine": [
+        "vegetariskt",
+        "veganskt"
+      ],
+      "dailyLunch": "Rostad blomkål med hummus och matvete",
+      "vegetarianOption": "Dagens rätt är vegetarisk",
+      "priceSek": 119,
+      "openingHours": "10:30-14:30",
+      "isOpenForLunch": true
+    },
+    {
+      "id": 3,
+      "name": "Vallastadens asiatiska",
+      "area": "Vallastaden",
+      "address": "Testallén 8",
+      "cuisine": [
+        "asiatiskt",
+        "thai"
+      ],
+      "dailyLunch": "Kyckling med röd curry och jasminris",
+      "vegetarianOption": "Tofu med grön curry",
+      "priceSek": 129,
+      "openingHours": "11:00-14:30",
+      "isOpenForLunch": true
+    },
+    {
+      "id": 4,
+      "name": "Mjärdevi matverkstad",
+      "area": "Mjärdevi",
+      "address": "Innovationsgatan 5",
+      "cuisine": [
+        "internationellt",
+        "svenskt"
+      ],
+      "dailyLunch": "Ugnsbakad lax med dillpotatis",
+      "vegetarianOption": "Svamprisotto med parmesan",
+      "priceSek": 135,
+      "openingHours": "11:00-13:30",
+      "isOpenForLunch": true
+    },
+    {
+      "id": 5,
+      "name": "Resecentrums pastabistro",
+      "area": "Resecentrum",
+      "address": "Provplatsen 3",
+      "cuisine": [
+        "italienskt",
+        "pasta"
+      ],
+      "dailyLunch": "Pasta bolognese med parmesan",
+      "vegetarianOption": "Pasta primavera",
+      "priceSek": 122,
+      "openingHours": "10:30-15:00",
+      "isOpenForLunch": true
+    }
+  ]
+}
